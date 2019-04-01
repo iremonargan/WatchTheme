@@ -1,0 +1,367 @@
+.watch, .detail, .more, .hesapbilgileri, .siparis, .collection {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  color: #858585; }
+  .watch a, .detail a, .more a, .hesapbilgileri a, .siparis a, .collection a {
+    text-decoration: none; }
+  .watch .wrapper, .detail .wrapper, .more .wrapper, .hesapbilgileri .wrapper, .siparis .wrapper, .collection .wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 30px; }
+  .watch header, .detail header, .more header, .hesapbilgileri header, .siparis header, .collection header {
+    font-family: 'Lato', sans-serif;
+    color: #858585; }
+    .watch header img, .detail header img, .more header img, .hesapbilgileri header img, .siparis header img, .collection header img {
+      width: 170px; }
+    .watch header input, .detail header input, .more header input, .hesapbilgileri header input, .siparis header input, .collection header input {
+      background: #f3f3f3;
+      padding: 10px 45px 10px 10px;
+      font-size: 14px;
+      transition: background-color 0.2s ease-out; }
+    .watch header input::placeholder, .detail header input::placeholder, .more header input::placeholder, .hesapbilgileri header input::placeholder, .siparis header input::placeholder, .collection header input::placeholder {
+      font-weight: 700;
+      font-family: 'Lato', sans-serif;
+      color: #545454; }
+    .watch header button, .detail header button, .more header button, .hesapbilgileri header button, .siparis header button, .collection header button {
+      background: #f3f3f3;
+      padding: 8px 20px;
+      font-size: 14px;
+      color: #545454;
+      font-weight: 700;
+      font-family: 'Lato', sans-serif; }
+    .watch header a, .detail header a, .more header a, .hesapbilgileri header a, .siparis header a, .collection header a {
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 12px; }
+    .watch header p, .detail header p, .more header p, .hesapbilgileri header p, .siparis header p, .collection header p {
+      color: #545454;
+      font-size: 12px; }
+    .watch header nav, .detail header nav, .more header nav, .hesapbilgileri header nav, .siparis header nav, .collection header nav {
+      font-family: 'Lato', sans-serif;
+      background: #9c756f; }
+      .watch header nav button, .detail header nav button, .more header nav button, .hesapbilgileri header nav button, .siparis header nav button, .collection header nav button {
+        background: transparent; }
+      .watch header nav .dropdown-menu a, .detail header nav .dropdown-menu a, .more header nav .dropdown-menu a, .hesapbilgileri header nav .dropdown-menu a, .siparis header nav .dropdown-menu a, .collection header nav .dropdown-menu a {
+        color: #9c756f; }
+      .watch header nav .navbar-toggler, .detail header nav .navbar-toggler, .more header nav .navbar-toggler, .hesapbilgileri header nav .navbar-toggler, .siparis header nav .navbar-toggler, .collection header nav .navbar-toggler {
+        background: transparent; }
+      .watch header nav a, .detail header nav a, .more header nav a, .hesapbilgileri header nav a, .siparis header nav a, .collection header nav a {
+        margin-right: 10px;
+        font-size: 14px;
+        font-weight: 600; }
+  .watch section, .detail section, .more section, .hesapbilgileri section, .siparis section, .collection section {
+    background: #f3f3f3; }
+    .watch section .shop, .detail section .shop, .more section .shop, .hesapbilgileri section .shop, .siparis section .shop, .collection section .shop {
+      box-sizing: border-box; }
+      .watch section .shop h4, .detail section .shop h4, .more section .shop h4, .hesapbilgileri section .shop h4, .siparis section .shop h4, .collection section .shop h4 {
+        color: #2f2f2f;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 700; }
+      .watch section .shop .column, .detail section .shop .column, .more section .shop .column, .hesapbilgileri section .shop .column, .siparis section .shop .column, .collection section .shop .column {
+        border: 1px solid #dedede;
+        position: relative;
+        padding: 15px 0; }
+      .watch section .shop .column:hover img, .detail section .shop .column:hover img, .more section .shop .column:hover img, .hesapbilgileri section .shop .column:hover img, .siparis section .shop .column:hover img, .collection section .shop .column:hover img {
+        opacity: 0.9; }
+      .watch section .shop .featured-box, .detail section .shop .featured-box, .more section .shop .featured-box, .hesapbilgileri section .shop .featured-box, .siparis section .shop .featured-box, .collection section .shop .featured-box {
+        color: #858585;
+        font-weight: 500;
+        font-size: 13px; }
+        .watch section .shop .featured-box img, .detail section .shop .featured-box img, .more section .shop .featured-box img, .hesapbilgileri section .shop .featured-box img, .siparis section .shop .featured-box img, .collection section .shop .featured-box img {
+          width: 75%; }
+      .watch section .shop .featured-box:after, .detail section .shop .featured-box:after, .more section .shop .featured-box:after, .hesapbilgileri section .shop .featured-box:after, .siparis section .shop .featured-box:after, .collection section .shop .featured-box:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.02);
+        z-index: 5; }
+      .watch section .shop .shop-for a, .detail section .shop .shop-for a, .more section .shop .shop-for a, .hesapbilgileri section .shop .shop-for a, .siparis section .shop .shop-for a, .collection section .shop .shop-for a {
+        text-decoration: none;
+        color: #9c756f; }
+    .watch section .feature .featured h4, .detail section .feature .featured h4, .more section .feature .featured h4, .hesapbilgileri section .feature .featured h4, .siparis section .feature .featured h4, .collection section .feature .featured h4 {
+      color: #2f2f2f;
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 700; }
+    .watch section .feature .featured a, .detail section .feature .featured a, .more section .feature .featured a, .hesapbilgileri section .feature .featured a, .siparis section .feature .featured a, .collection section .feature .featured a {
+      font-size: 14px;
+      text-decoration: none;
+      color: #9c756f;
+      font-weight: 500; }
+    .watch section .feature a button, .detail section .feature a button, .more section .feature a button, .hesapbilgileri section .feature a button, .siparis section .feature a button, .collection section .feature a button {
+      border: 2px solid #858585;
+      color: #858585;
+      padding: 0 8px;
+      border-radius: 3px;
+      background: transparent;
+      font-size: 13px;
+      font-weight: 700; }
+    .watch section .feature a p, .detail section .feature a p, .more section .feature a p, .hesapbilgileri section .feature a p, .siparis section .feature a p, .collection section .feature a p {
+      font-size: 14px;
+      color: #858585; }
+    .watch section .feature a h6, .detail section .feature a h6, .more section .feature a h6, .hesapbilgileri section .feature a h6, .siparis section .feature a h6, .collection section .feature a h6 {
+      font-size: 20px;
+      font-family: "Times New Roman", Times, serif;
+      color: black;
+      position: relative; }
+      .watch section .feature a h6 span, .detail section .feature a h6 span, .more section .feature a h6 span, .hesapbilgileri section .feature a h6 span, .siparis section .feature a h6 span, .collection section .feature a h6 span {
+        position: absolute;
+        top: -0.1em;
+        font-weight: bold;
+        font-size: 10px; }
+    .watch section .feature a:hover img, .detail section .feature a:hover img, .more section .feature a:hover img, .hesapbilgileri section .feature a:hover img, .siparis section .feature a:hover img, .collection section .feature a:hover img {
+      opacity: 0.9; }
+  .watch footer, .detail footer, .more footer, .hesapbilgileri footer, .siparis footer, .collection footer {
+    line-height: 1.6;
+    font-family: "Times New Roman", Times, serif;
+    color: #545454;
+    font-weight: 700; }
+    .watch footer ul, .detail footer ul, .more footer ul, .hesapbilgileri footer ul, .siparis footer ul, .collection footer ul {
+      list-style-type: none;
+      padding-bottom: 0;
+      margin-bottom: 0; }
+    .watch footer h3, .detail footer h3, .more footer h3, .hesapbilgileri footer h3, .siparis footer h3, .collection footer h3 {
+      font-weight: 700;
+      font-size: 16px; }
+    .watch footer a, .detail footer a, .more footer a, .hesapbilgileri footer a, .siparis footer a, .collection footer a {
+      font-size: 14px;
+      font-weight: 300;
+      font-family: Roboto, sans-serif;
+      color: #545454; }
+    .watch footer p, .detail footer p, .more footer p, .hesapbilgileri footer p, .siparis footer p, .collection footer p {
+      font-size: 14px;
+      font-weight: 300;
+      color: #545454;
+      font-family: Roboto, sans-serif; }
+    .watch footer input, .detail footer input, .more footer input, .hesapbilgileri footer input, .siparis footer input, .collection footer input {
+      background-color: rgba(133, 133, 133, 0.1);
+      border: 1px solid #ababab;
+      font-size: 12px; }
+    .watch footer input::placeholder, .detail footer input::placeholder, .more footer input::placeholder, .hesapbilgileri footer input::placeholder, .siparis footer input::placeholder, .collection footer input::placeholder {
+      font-size: 14px;
+      color: #6a6a6a;
+      font-family: Roboto, sans-serif;
+      font-weight: 300; }
+    .watch footer button, .detail footer button, .more footer button, .hesapbilgileri footer button, .siparis footer button, .collection footer button {
+      background: #f3f3f3;
+      font-size: 12px;
+      font-weight: 500;
+      font-family: Roboto, sans-serif;
+      cursor: pointer;
+      color: #858585; }
+    .watch footer .foot p, .detail footer .foot p, .more footer .foot p, .hesapbilgileri footer .foot p, .siparis footer .foot p, .collection footer .foot p {
+      font-size: 13px; }
+    .watch footer .social a, .detail footer .social a, .more footer .social a, .hesapbilgileri footer .social a, .siparis footer .social a, .collection footer .social a {
+      transition: color 0.2s ease-out;
+      font-size: 20px;
+      line-height: 16px; }
+    .watch footer .social li, .detail footer .social li, .more footer .social li, .hesapbilgileri footer .social li, .siparis footer .social li, .collection footer .social li {
+      margin: 0 10px 0 0; }
+
+.detail .breadcrumb {
+  background: transparent;
+  font-size: 14px; }
+  .detail .breadcrumb a {
+    color: #858585; }
+.detail section h6 {
+  font-size: 18px;
+  color: #2f2f2f;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700; }
+.detail section h3 {
+  font-weight: 700;
+  font-size: 23px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  position: relative; }
+  .detail section h3 span {
+    position: absolute;
+    top: -0.1em;
+    font-weight: bold;
+    font-size: 10px; }
+.detail section .form-group select {
+  background: transparent;
+  width: 40%;
+  border-radius: 1px; }
+.detail section button {
+  border-radius: 1px;
+  background: #9c756f;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px 20px;
+  color: white; }
+.detail section p {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #858585; }
+  .detail section p span {
+    color: #9c756f; }
+.detail section .paragraf p {
+  font-weight: 400;
+  font-style: normal; }
+.detail section .social a {
+  color: white;
+  font-size: 12px;
+  font-weight: 600; }
+.detail section .social .face {
+  border-radius: 2px;
+  background-color: #3b5998; }
+.detail section .social .twt {
+  border-radius: 2px;
+  background-color: #00aced; }
+.detail section .social .pint {
+  border-radius: 2px;
+  background: #cb2027; }
+
+.more .breadcrumb {
+  background: transparent;
+  font-size: 14px; }
+  .more .breadcrumb a {
+    color: #858585; }
+.more section aside h3 {
+  color: #2f2f2f;
+  margin: 0 0 0.5em;
+  line-height: 1.4;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 1.133em;
+  font-style: normal; }
+.more section aside ul {
+  list-style-type: none; }
+  .more section aside ul li {
+    padding: 2px 0; }
+  .more section aside ul a {
+    color: #9c756f; }
+.more section .bags h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #2f2f2f; }
+.more section .bags .filter {
+  background: #9c756f; }
+  .more section .bags .filter button {
+    color: #f3f3f3 !important; }
+.more section .bags .form-group {
+  white-space: nowrap; }
+  .more section .bags .form-group select, .more section .bags .form-group span {
+    background: transparent;
+    font-size: 14px;
+    color: #858585; }
+  .more section .bags .form-group button {
+    background: transparent;
+    color: #858585; }
+.more section .bags-2 p {
+  color: #858585; }
+.more section .bags-2 h6 {
+  font-size: 20px;
+  color: #2f2f2f;
+  font-family: "Times New Roman", Times, serif;
+  position: relative; }
+  .more section .bags-2 h6 span {
+    position: absolute;
+    top: -0.1em;
+    font-weight: bold;
+    font-size: 10px; }
+.more section .bags-2 img {
+  position: relative; }
+.more section .bags-2 .sold-out {
+  position: absolute;
+  top: 33%;
+  color: #f3f3f3;
+  padding: 5px;
+  opacity: 0.9;
+  background: #2f2f2f;
+  left: 30%; }
+.more section .bag:hover img {
+  opacity: 0.9; }
+
+.hesapbilgileri section label {
+  font-size: 14px;
+  color: #545454; }
+.hesapbilgileri section input, .hesapbilgileri section select {
+  background: transparent; }
+.hesapbilgileri section input::placeholder {
+  font-size: 14px;
+  color: #858585; }
+.hesapbilgileri section h4, .hesapbilgileri section h6 {
+  color: #2f2f2f;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600; }
+.hesapbilgileri section .ekle {
+  color: #9c756f;
+  font-weight: 500;
+  font-size: 14px; }
+.hesapbilgileri section .kaldir {
+  color: darkred;
+  font-weight: 500;
+  font-size: 14px; }
+.hesapbilgileri section .guncelle {
+  color: #f3f3f3;
+  font-weight: 500;
+  font-size: 16px;
+  background: #9c756f; }
+.hesapbilgileri section .head .hesap {
+  background: #e7e7e7;
+  border: 1px solid darkgrey; }
+  .hesapbilgileri section .head .hesap p {
+    font-size: 14px;
+    color: black; }
+    .hesapbilgileri section .head .hesap p span {
+      color: #858585; }
+
+.siparis section h4 {
+  color: #2f2f2f;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600; }
+.siparis section table {
+  color: #858585;
+  font-size: 14px; }
+  .siparis section table thead {
+    background: black;
+    color: #f3f3f3; }
+  .siparis section table img {
+    width: 80px; }
+.siparis section .bilgi .kargo {
+  width: 300px; }
+  .siparis section .bilgi .kargo .tarih {
+    background: #e7e7e7; }
+  .siparis section .bilgi .kargo p {
+    color: black;
+    font-size: 14px;
+    font-weight: 600; }
+    .siparis section .bilgi .kargo p span {
+      font-weight: 400;
+      color: #858585; }
+
+.collection .breadcrumb {
+  background: transparent;
+  font-size: 14px; }
+  .collection .breadcrumb a {
+    color: #858585; }
+.collection .shop-2 .column {
+  border: 1px solid #dedede;
+  padding: 25px 10px !important; }
+.collection .shop-2 .column:hover img {
+  opacity: 0.9; }
+.collection .shop-2 .featured-box {
+  color: #858585; }
+  .collection .shop-2 .featured-box img {
+    width: 100%;
+    height: 100%; }
+
+@media screen and (max-width: 767px) {
+  .watch header input, .detail header input, .more header input, .hesapbilgileri header input, .siparis header input, .collection header input {
+    border: 1px solid white;
+    background: transparent; }
+
+  .more section #sidebar {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
